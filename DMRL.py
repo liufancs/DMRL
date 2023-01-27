@@ -300,8 +300,7 @@ class DMRL(object):
                 tf.assign(self.item_embeddings, tf.clip_by_norm(self.item_embeddings, 1.0, axes=[1]))]
     @define_scope
     def optimize(self):
-        # have two separate learning rates. The first one for user/item embedding is un-normalized.
-        # The second one for feature projector NN is normalized by the number of items.
+     
         return tf.train.AdamOptimizer(self.master_learning_rate).minimize(self.loss, var_list=[self.user_embeddings, self.item_embeddings])
 
     @define_scope
