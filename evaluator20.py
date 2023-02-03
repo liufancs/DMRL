@@ -49,10 +49,10 @@ class RecallEvaluator(object):
         user_batch_rating_uid = zip(users,user_tops)
         for user_id, tops in user_batch_rating_uid:
             batch_result = self.test_one_user(user_id,tops)
-        recalls.append(batch_result['recall'])
-        precisions.append(batch_result['precision'])
-        hit_ratios.append(batch_result['hit_ratio'])
-        ndcgs.append(batch_result['ndcg'])
+            recalls.append(batch_result['recall'])
+            precisions.append(batch_result['precision'])
+            hit_ratios.append(batch_result['hit_ratio'])
+            ndcgs.append(batch_result['ndcg'])
         return recalls,ndcgs,hit_ratios,precisions
 
     def test_one_user(self, u,rating):
