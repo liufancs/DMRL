@@ -6,11 +6,5 @@ Fan Liu*, Huilin Chen, Zhiyong Cheng, Anan Liu, Liqiang Nie, Mohan Kankanhalli. 
 
 **Please cite our paper if you use our codes or datasets. Thanks!**
 
-### Dataset
-We provide five processed datasets: Amazon-Office, Amazon-Clothing, Amazon-Baby, Amazon-ToysGames, Amazon-Sports.
-
-All of the above datasets could be downloaded from :
-- Google Drive [Link](https://drive.google.com/drive/folders/1EmehilbrTMbW5pV2RIHNhopV_hnupvDj?usp=sharing)
-
 
 Last Update Date: DEC. 04, 2022
